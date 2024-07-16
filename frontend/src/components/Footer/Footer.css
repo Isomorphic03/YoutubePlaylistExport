@@ -1,0 +1,26 @@
+.Footer{
+    background-color: #FFC29F;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid black;
+    user-select: none;
+}
+
+.Footer div{
+    margin-left: 5%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.ProjectRepo{
+    margin-right: 1rem;
+}
+
+.ProjectRepo a{
+    color: black;
+}

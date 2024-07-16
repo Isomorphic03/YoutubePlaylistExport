@@ -1,0 +1,87 @@
+.PlaylistCard-Container{
+    position: relative;
+    margin: 0;
+    margin-left: 5%;
+    width: 80%;
+    height: 30%;
+    border-radius: 4px; 
+    background-color: #B8FF9F;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.Playlist-Thumbnail{
+    border: 2px solid black;
+    width: 30%;
+    height: 80%;
+    margin-left: 2%;
+}
+
+.Playlist-Thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Playlist-Info{
+    width: 63.5%;
+    height: 80%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Playlist-Name{
+    height: 20rem;
+    width: 100%;
+    margin: 0;
+}
+
+.Playlist-Name p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: top;;
+}
+.Playlist-Creator{
+
+    font-size: 1em;
+    height: 40%;
+}
+
+.Other-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.Playlist-Title{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.List-type{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ID-type{
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #79F7FF;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    border-radius: 4px; 
+}
+

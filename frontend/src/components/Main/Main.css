@@ -1,0 +1,110 @@
+
+  .Main-container {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Assets/Image.png');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .Title{
+    display: flex;
+    height: 12%;
+    width: 100%;
+    align-items: center;
+    user-select: none;
+  }
+
+  .Title span{
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 5%; ;
+  }
+  
+  .PlaylistLink{
+    display: flex;
+    height: 10%;
+    align-items: center;
+  }
+
+  .PlaylistLink-InputBox{
+    margin-left: 5%;
+  }
+
+  .PlaylistLink-Btn{
+    margin-left: 3%;
+  }
+
+  .RadioSection{
+    margin-left: 5%;
+    width: auto;
+    height: auto;
+  }
+
+  .Radio-Option{
+    display: flex;
+  }
+  .Radio-Option p{
+    margin: 0;
+  }
+
+  .Connect-Section{
+    height: 6rem;
+    width: auto;
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+.Option-Section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  border: 1px solid red;
+  background-color: #FFF59F;
+  width: 80%;
+  height: 15%;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+  border-radius: 4px; 
+  margin-top: 0.9rem;
+}
+
+.Option-Section-Header{
+
+  width: 95%;
+  height:40%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.Option-Section-Header p{
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.Options-Container{
+  width: 95%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main-container::-webkit-scrollbar {
+  width: 7px; /* width of the entire scrollbar */
+}
+
+.Empty{
+  height: 40%;
+  width: 100%;
+  background: none;
+}

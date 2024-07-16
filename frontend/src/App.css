@@ -1,0 +1,30 @@
+/* App.css */
+
+.App-Wrapper {
+    /* border: 1px solid green; */
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.Main-App-Container{
+    height: 95%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.SongList-App-Container{
+    height: 100%;
+    width: 35%;
+}
+
+.Footer-Container{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 65%;
+}    
+  
+
